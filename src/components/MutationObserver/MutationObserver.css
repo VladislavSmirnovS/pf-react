@@ -1,0 +1,13 @@
+.config__counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .config__counterValue {
+    margin: 0 10px;
+  }
+  
+  .config__counterBtn {
+    width: 20px;
+    height: 20px;
+  }

@@ -1,0 +1,22 @@
+.toolBar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .config__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .config__nameItem {
+    margin-bottom: 10px;
+  }
+  
