@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import Header from "../Header/Header";
-import ToolBar from "../ToolBar/ToolBar";
-import ProxyWithObserver from "../ProxyWithObserver/ProxyWithObserver";
-import CardList from "../CardList/CardList";
+import Header from "../Header/Header.jsx";
+import ToolBar from "../ToolBar/ToolBar.jsx";
+import ProxyWithObserver from "../ProxyWithObserver/ProxyWithObserver.jsx";
+import CardList from "../CardList/CardList.jsx";
 
 function App() {
   const [counter, setCounter] = React.useState(0);

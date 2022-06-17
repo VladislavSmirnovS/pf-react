@@ -5,6 +5,7 @@ function ResizeObserver({ width, setWidth }) {
 
   function handleChange() {
     setResizeCheck(!resizeCheck);
+    debugger
   }
 
   return (

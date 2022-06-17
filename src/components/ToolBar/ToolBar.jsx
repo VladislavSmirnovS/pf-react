@@ -1,8 +1,8 @@
 import "./ToolBar.css";
-
-import IntersectionObserver from "../IntersectionObserver/IntersectionObserver";
-import MutationObserver from "../MutationObserver/MutationObserver";
-import ResizeObserver from "../ResizeObserver/ResizeObserver";
+import React from "react";
+import IntersectionObserver from "../IntersectionObserver/IntersectionObserver.jsx";
+import MutationObserver from "../MutationObserver/MutationObserver.jsx";
+import ResizeObserver from "../ResizeObserver/ResizeObserver.jsx";
 
 function ToolBar({ width, setWidth, counter, setCounter }) {
   return (

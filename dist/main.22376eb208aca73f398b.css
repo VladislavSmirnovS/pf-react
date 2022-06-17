@@ -1,0 +1,93 @@
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/index.css ***!
+  \***********************************************************************************************************/
+html {
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+}
+body {
+  margin: 0;
+  font-family: Inter,Arial,sans-serif;
+    font-style: normal;
+}
+
+.page {
+  max-width: 100%;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  -mox-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+/*!******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/Header/Header.css ***!
+  \******************************************************************************************************************************/
+.header {
+    max-width: 1028px;
+    background: "white";
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    padding: 45px 0 40px;
+    margin: 0 auto 40px;
+    display: flex;
+  }
+/*!********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/ToolBar/ToolBar.css ***!
+  \********************************************************************************************************************************/
+.toolBar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .config__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .config__nameItem {
+    margin-bottom: 10px;
+  }
+  
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/MutationObserver/MutationObserver.css ***!
+  \**************************************************************************************************************************************************/
+.config__counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .config__counterValue {
+    margin: 0 10px;
+  }
+  
+  .config__counterBtn {
+    width: 20px;
+    height: 20px;
+  }
+/*!**********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/components/CardList/CardList.css ***!
+  \**********************************************************************************************************************************/
+.card{
+    width: 1000px;
+    height: 1000px;
+}
+
+.cardList{
+    background: green;
+}
+
+/*# sourceMappingURL=main.22376eb208aca73f398b.css.map*/
